@@ -1,0 +1,21 @@
+table {
+    text-align: center;
+    width: 1000px;
+   
+    border-collapse: collapse;
+}
+#first-td {
+    border: 2px solid black;
+    background-color: aqua;
+}
+th , td {
+    padding: 10px 15px;
+}
+tr:nth-child(even) {
+    background-color: rgba(0, 255, 255, 0.45);
+    border-bottom: 2px solid gray;
+}
+tr:hover {
+    background-color: rgba(137, 43, 226, 0.291);
+}
+
